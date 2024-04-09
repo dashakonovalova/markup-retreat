@@ -1,1 +1,13 @@
 /* Пиши стили тут */
+.stars {
+    font-size: 100px;
+    display: flex;
+}
+
+.stars span {
+    color: gold;
+}
+
+.stars span:hover ~ span {
+    color: gray;
+}
